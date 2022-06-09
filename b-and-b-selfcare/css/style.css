@@ -275,7 +275,7 @@ a:focus {
     font-size: 4.5rem;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #002c3e;
+    color: white;
     line-height: 70px;
 }
 
@@ -284,18 +284,35 @@ a:focus {
 }
 
 .slider_section .detail-box p {
+    color: white;
     font-size: 16px;
     margin-top: 20px;
     margin-bottom: 1.5rem;
 }
 
+html::-webkit-scrollbar{
+
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: white;
+
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: black ;
+    border-radius: 200px;
+    border: 1px groove #f7444e;
+}
+
 .slider_section .detail-box a {
     display: inline-block;
     padding: 12px 45px;
-    background-color: #f7444e;
+    background-color: black;
     border: 1px solid #f7444e;
     color: #ffffff;
-    border-radius: 0;
+    border-radius: 200px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10px;
@@ -303,8 +320,9 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: transparent;
-  color: #f7444e;
+    background-color: #f7444e;
+    color: white;
+    border: 1px solid black;
 }
 
 .slider_section .img-box img {
@@ -441,7 +459,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(212, 206, 208);
   z-index: 3;
   opacity: 0;
   visibility: hidden;
@@ -493,8 +511,8 @@ a:focus {
 }
 
 .product_section .options .option2:hover {
-  background-color: transparent;
-  color: #000000;
+  background-color: #f7444e;
+  color: #f7444e;
 }
 
 .product_section .btn-box {
@@ -507,20 +525,22 @@ a:focus {
   margin-top: 45px;
 }
 
-.product_section .btn-box a {
+.why_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #f7444e;
+  background-color: black;
   border: 1px solid #f7444e;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 200px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.product_section .btn-box a:hover {
-  background-color: transparent;
-  color: #f7444e;
+.why_section .btn-box a:hover {
+    background-color: #f7444e;
+    color: white;
+    border: 1px solid black;
+
 }
 
 .arrival_section .heading_container {
@@ -569,10 +589,10 @@ a:focus {
 
 .why_section .box {
     text-align: center;
-    margin-top: 45px;
-    background-color: #002c3e;
-    padding: 45px 50px;
-    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #583475;
+    padding: 10px 20px;
+    border-radius: 50px;
     color: #ffffff;
 }
 
@@ -590,9 +610,7 @@ a:focus {
 }
 
 .why_section .box .img-box svg {
-  width: 55px;
   height: auto;
-  fill: #ffffff;
 }
 
 .subscribe_section {
@@ -756,7 +774,6 @@ a:focus {
 
 .client_section .box .detail-box h6 {
   font-size: 15px;
-  color: #999998;
 }
 
 .client_section .carousel-control-prev,
@@ -836,7 +853,9 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #f7444e;
+    background-color: black;
+    border: 1px solid #f7444e;
+    color: #ffffff;
 }
 
 .footer_section .footer-logo {
