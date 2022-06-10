@@ -7,6 +7,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url(//db.onlinewebfonts.com/c/b683e91c7f1630c12f4d6e0919cd5411?family=Beaumaris+Demo);
+@font-face {font-family: "Beaumaris Demo"; src: url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.eot"); src: url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.woff") format("woff"), url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b683e91c7f1630c12f4d6e0919cd5411.svg#Beaumaris Demo") format("svg"); }
 
 *{
     font-family: 'Roboto', sans-serif;
